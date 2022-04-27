@@ -20,7 +20,6 @@ if __name__ == '__main__':
 
         if choice == "1":
 
-            while True:
                 
                 length= float(input('Please Enter the length of a triangle: '))
                 Base= float(input('Please Enter the base of a triangle: '))
@@ -33,9 +32,10 @@ if __name__ == '__main__':
                     if choice == "M":
                         break
                     elif choice == "R":
-                        continue
+                        pass
                     else:
                         print("Invalid input.  Please try again!\n")
+                        continue
 
                     length= float(input('Please Enter the length of a triangle: '))
                     Base= float(input('Please Enter the base of a triangle: '))
@@ -46,8 +46,6 @@ if __name__ == '__main__':
 
         elif choice == "2":
 
-            while True:
-               
                 PI = 3.14
                 radius = float(input('Please Enter the Radius of a Sphere: '))
                 Volume = (4 / 3) * PI * radius * radius * radius
@@ -58,9 +56,10 @@ if __name__ == '__main__':
                     if choice == "M":
                         break
                     elif choice == "R":
-                        continue
+                        pass
                     else:
                         print("Invalid input.  Please try again!\n")
+                        continue
 
                     PI = 3.14
                     radius = float(input('Please Enter the Radius of a Sphere: '))
@@ -79,9 +78,10 @@ if __name__ == '__main__':
                 if choice == "M":
                     break
                 elif choice == "R":
-                    continue
+                    pass                   
                 else:
                     print("Invalid input.  Please try again!\n")
+                    continue
 
                 length= float(input('\nPlease Enter the length of a cube: '))
                 Volume = length * length * length
@@ -101,9 +101,10 @@ if __name__ == '__main__':
                     if choice == "M":
                         break
                     elif choice == "R":
-                        continue
+                        pass
                     else:
                         print("Invalid input.  Please try again!\n")
+                        continue
 
                     PI = 3.14
                     radius = float(input('Please Enter the Radius of a Cylinder: '))
@@ -128,9 +129,10 @@ if __name__ == '__main__':
                     if choice == "M":
                         break
                     elif choice == "R":
-                        continue
+                        pass
                     else:
                         print("Invalid input.  Please try again!\n")
+                        continue
 
                     l = float(input('Enter the length: '))
                     w = float(input('Enter the width: '))
@@ -154,9 +156,10 @@ if __name__ == '__main__':
                     if choice == "M":
                         break
                     elif choice == "R":
-                        continue
+                        pass
                     else:
                         print("Invalid input.  Please try again!\n")
+                        continue
 
                     base = float(input('Enter the length of base: '))
                     height = float(input('Enter the height: '))
@@ -180,9 +183,10 @@ if __name__ == '__main__':
                     if choice == "M":
                         break
                     elif choice == "R":
-                        continue
+                        pass
                     else:
                         print("Invalid input.  Please try again!\n")
+                        continue
 
                     d1 = float(input('Enter 1st diagonal: '))
                     d2 = float(input('Enter 2nd diagonal: '))
@@ -206,9 +210,10 @@ if __name__ == '__main__':
                     if choice == "M":
                         break
                     elif choice == "R":
-                        continue
+                        pass
                     else:
                         print("Invalid input.  Please try again!\n")
+                        continue
 
                     height = float(input("Height of trapezoid: "))
                     base_1 = float(input('Base one value: '))
